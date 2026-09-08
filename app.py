@@ -3,7 +3,7 @@ import re
 import tempfile
 import pandas as pd
 import streamlit as st
-from mistralai.client import Mistral
+from mistralai import Mistral
 ### Developer Notes: The current model uses Mistrals genrous monthly API limits in case of any chnaged in:
 #1-Usage limits: Feature enginerinbg using Pillow can be used to reduce input token and reduce the load
 #2- Deployment Issues: As shon clearly  we are not using any Docker container so in case of any updates
